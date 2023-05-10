@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Final Project</title>
+		<meta name="author" content="Rapha Andrei A. Camacho"/>
+		<meta name="keywords" content="Finals, Final Project, HTML, CSS"/> 
+		<link rel = "stylesheet" href ="../styles/Style.css"/><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">   
+		<link rel = "stylesheet" href ="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+	</head>
+	<body>
+		<div class="header">
+			<div class="container">
+				<div class="navbar">
+					<div class="logo">
+						<img src="../src/1.jpg" width="125px"/>
+					</div>
+					<nav>
+						<ul>
+							<li><a href="../index.html">HOME<a/></li>
+							<li><a href="../index.html#products">PRODUCTS<a/></li>
+							<li><a href="references.html">REFERENCES<a/></li>
+							<li><a href="register.html">ACCOUNT<a/></li>
+							
+						</ul>
+					</nav>
+					<img src="../src/cart.png" width="30px" height="30px">
+				</div>
+			</div>
+		</div>
+		<div id="registration-form">
+			<div class='fieldset'>
+				<legend>Create An Account</legend>
+				<form action="../Final.html" method="post" data-validate="parsley">
+					<div class='row'>
+						<label for='firstname'>Full Name</label>
+						<input type="text" placeholder="First Name" name='firstname' id='firstname' data-required="true" data-error-message="Your First Name is required">
+					</div>
+				<div class='row'>
+					<label for="email">E-mail</label>
+        <input type="text" placeholder="E-mail"  name='email' data-required="true" data-type="email" data-error-message="Your E-mail is required">
+      </div>
+      <div class='row'>
+        <label for="cemail">Confirm your E-mail</label>
+        <input type="text" placeholder="Confirm your E-mail" name='cemail' data-required="true" data-error-message="Your E-mail must correspond">
+      </div>
+	  <div class='row'>
+        <label for="cemail">Password</label>
+        <input type="text" placeholder="Password" name='cemail' data-required="true" data-error-message="Your E-mail must correspond">
+      </div>
+	  <center>
+	 <input type="submit" value="Register &#8594;" class="btn">
+	 </center>
+    </form>
+  </div>
+</div>
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="footer-col-1">
+						<h3>Download This App Now!</h3>
+						<p>Available for Android and Ios.</p>
+						<div class="app-logo">
+							<img src="../src/play-store.png">
+							<img src="../src/app-store.png">
+						</div>
+					</div>
+					<div class="footer-col-2">
+						<img src="../src/1.jpg" width="125px"/>
+						<p>Our purpose to sell perfumes is to focus on the emotional and sensory experiences they provide, and to highlight their unique ability to evoke memories, moods, and feelings.</p>
+					</div>
+					<div class="footer-col-3">
+						<h3>Other Links</h3>
+						<ul>
+							<li>Coupons</li>
+							<li>Blog Post</li>
+							<li>Return Policy</li>
+							<li>Join Affiliate</li>
+						</ul>
+					</div>
+					<div class="footer-col-4">
+						<h3>Follow Us</h3>
+						<ul>
+							<li>Facebook</li>
+							<li>Instagram</li>
+							<li>Twitter</li>
+							<li>Youtube</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
